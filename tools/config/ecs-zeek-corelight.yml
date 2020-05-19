@@ -35,8 +35,6 @@ logsources:
     rewrite:
       product: zeek
       service: dns
-    conditions:
-      event.dataset: dns
   zeek-category-proxy:
     category: proxy
     rewrite:
