@@ -38,13 +38,13 @@ logsources:
   zeek-category-proxy:
     category: proxy
     rewrite:
-        product: zeek
-        service: http
+      product: zeek
+      service: http
   zeek-category-webserver:
     category: webserver
     rewrite:
-        product: zeek
-        service: http
+      product: zeek
+      service: http
   zeek-conn:
     product: zeek
     service: conn
