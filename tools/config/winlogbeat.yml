@@ -57,6 +57,7 @@ fieldmappings:
   AuthenticationPackageName: winlog.event_data.AuthenticationPackageName
   CallingProcessName: winlog.event_data.CallingProcessName
   CallTrace: winlog.event_data.CallTrace
+  Channel: winlog.channel
   CommandLine: winlog.event_data.CommandLine
   ComputerName: winlog.computer_name
   ContextInfo: winlog.event_data.ContextInfo
@@ -118,3 +119,16 @@ fieldmappings:
   TicketOptions: winlog.event_data.TicketOptions
   User: winlog.event_data.User
   WorkstationName: winlog.event_data.WorkstationName
+  # Channel: WLAN-Autoconfig AND EventID: 8001
+  AuthenticationAlgorithm: winlog.event_data.AuthenticationAlgorithm
+  BSSID: winlog.event_data.BSSID
+  BSSType: winlog.event_data.BSSType
+  CipherAlgorithm: winlog.event_data.CipherAlgorithm
+  ConnectionId: winlog.event_data.ConnectionId
+  ConnectionMode: winlog.event_data.ConnectionMode
+  InterfaceDescription: winlog.event_data.InterfaceDescription
+  InterfaceGuid: winlog.event_data.InterfaceGuid
+  OnexEnabled: winlog.event_data.OnexEnabled
+  PHYType: winlog.event_data.PHYType
+  ProfileName: winlog.event_data.ProfileName
+  SSID: winlog.event_data.SSID
