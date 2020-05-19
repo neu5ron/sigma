@@ -65,8 +65,10 @@ fieldmappings:
   Description: winlog.event_data.Description
   DestinationHostname: winlog.event_data.DestinationHostname
   DestinationIp: winlog.event_data.DestinationIp
+  dst_ip: winlog.event_data.DestinationIp
   DestinationIsIpv6: winlog.event_data.DestinationIsIpv6
   DestinationPort: winlog.event_data.DestinationPort
+  dst_port: winlog.event_data.DestinationPort
   Details: winlog.event_data.Details
   EngineVersion: winlog.event_data.EngineVersion
   EventType: winlog.event_data.EventType
@@ -108,6 +110,10 @@ fieldmappings:
   Signature: winlog.event_data.Signature
   Source: winlog.event_data.Source
   SourceImage: winlog.event_data.SourceImage
+  SourceIp: winlog.event_data.SourceIp
+  src_ip: winlog.event_data.SourceIp
+  SourcePort: winlog.event_data.SourcePort
+  src_port: winlog.event_data.SourcePort
   StartModule: winlog.event_data.StartModule
   Status: winlog.event_data.Status
   SubjectUserName: winlog.event_data.SubjectUserName
