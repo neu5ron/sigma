@@ -8,7 +8,6 @@ backends:
   - xpack-watcher
   - elastalert
   - elastalert-dsl
-  - elasticsearch-rule
   - ee-outliers
 logsources:
   windows:

@@ -5,8 +5,7 @@ backends:
   - es-qs
   - corelight_es-qs
   - es-dsl
-  - elasticsearch-rule
-  - corelight_elasticsearch-rule
+  - es-rule
   - kibana
   - corelight_kibana
   - xpack-watcher
